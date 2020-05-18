@@ -1,7 +1,7 @@
 spring:
   cloud: #配置读取配置 读取github(云)上的配置
     config:
-      uri: http://localhost:8888
+      uri: http://106.54.218.126:8888
       name: itoken-eureka
       label: master
       profile: prod
